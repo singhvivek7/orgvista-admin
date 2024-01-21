@@ -1,7 +1,7 @@
 const path = require('path');
 
 const buildEslintCommand = (filenames) =>
-  `next lint --fix --file ${filenames
+  `prettier --write --ignore-path .gitignore ${filenames
     .map((f) => path.relative(process.cwd(), f))
     .join(' --file ')}`;
 
