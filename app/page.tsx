@@ -1,8 +1,7 @@
+import Dashboard from '@/modules/dashboard/dashboard';
 
 const Home = () => {
-  return (
-    <h1>Hi</h1>
-  );
+  return <Dashboard />;
 };
 
 export default Home;
