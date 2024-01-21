@@ -19,7 +19,9 @@
     ],
     "paths": {
       "@/*": ["./*"],
-      "@admin-ui/*": ["./components/*"],
+      "@admin-ui/*": ["./components/ui/*"],
+      "@public/*": ["./public/*"],
+
     },
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
